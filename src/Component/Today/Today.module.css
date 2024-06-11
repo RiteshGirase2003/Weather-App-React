@@ -1,0 +1,50 @@
+.scrollableContainer {
+    height: 85vh; 
+    overflow: auto; 
+  }
+
+  .scrollableContainer::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+  }
+/* 
+.weatherContainer {
+    text-align: center;
+    margin-top: 20px;
+  } */
+  
+  .cityName {
+    font-size: 24px;
+  }
+  
+  .weatherIcon {
+    display: block;
+    margin: 0 auto;
+    width: 100px; 
+    height: auto; 
+  }
+  
+  .temperature {
+    font-size: 36px;
+  }
+  
+  /* .weatherCard {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 20px;
+  }
+   */
+  .weatherContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .weatherCard {
+    width: 80%; 
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2a4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }

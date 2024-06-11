@@ -1,0 +1,13 @@
+/* LeftPanel.module.css */
+
+.leftPanel {
+  position: fixed;
+  top: calc(6vh + 2rem); 
+  left: 0;
+  height: calc(94vh - 2rem); 
+  width: 20vw;
+  background-color: #fdfdfd;
+  /* padding: 20px; */
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
