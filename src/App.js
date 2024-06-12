@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Header from './Component/Header/Header';
-import RightPanel from './Component/LeftPanel/LeftPanel';
 import NavBar from './Component/NavBar/NavBar';
+import LeftPanel from './Component/LeftPanel/LeftPanel';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div >
       <Header/>
       <>
-        <RightPanel/>
+        <LeftPanel/>
         <NavBar/>
       </>
     </div>
