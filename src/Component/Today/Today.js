@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import styles from './Today.module.css'; // Import CSS module
-
+import styles from './Today.module.css'; 
+import { Star as StarIcon } from '@mui/icons-material';
 import clear_icon from '../Assets/clear.png';
 import cloud_icon from '../Assets/cloud.png';
 import drizzle_icon from '../Assets/drizzle.png';
@@ -12,15 +12,23 @@ import humidity_icon from '../Assets/humidity.png';
 
 const Today = () => {
   const [weatherData, setWeatherData] = useState(null);
-  const [weatherIcon, setWeatherIcon] = useState(clear_icon); // Default to clear icon
+  const [weatherIcon, setWeatherIcon] = useState(clear_icon); 
+  const [coordinates, setCoordinates] = useState([]);
+  
+  useEffect(() => {
+    const storedCoordinates = localStorage.getItem('coordinates');
+    if (storedCoordinates) {
+      console.log(JSON.parse(storedCoordinates))
+      setCoordinates(JSON.parse(storedCoordinates));
+    }
+  }, []);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Nashik&units=metric&appid=55dde7f2262dcf16d636e7dfa533a821`);
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=nashik&units=metric&appid=55dde7f2262dcf16d636e7dfa533a821`);
         setWeatherData(response.data);
 
-        // Set weather icon based on response data
         setWeatherIcon(getWeatherIcon(response.data.weather[0].icon));
       } catch (error) {
         console.error('Error fetching weather data:', error);
@@ -28,6 +36,8 @@ const Today = () => {
     };
 
     fetchData();
+
+    
   }, []);
 
   const getWeatherIcon = (iconCode) => {
@@ -43,20 +53,50 @@ const Today = () => {
         return drizzle_icon;
       case '04d':
       case '04n':
-        return drizzle_icon; // Change to appropriate icon
-      case '09d':
+        return drizzle_icon; 
       case '09n':
         return rain_icon;
       case '10d':
       case '10n':
-        return rain_icon; // Change to appropriate icon
+        return rain_icon; 
       case '13d':
       case '13n':
         return snow_icon;
       default:
-        return clear_icon; // Default to clear icon
+        return clear_icon; 
     }
   };
+
+  // const handleStarClick = () => {
+  //   if (weatherData) {
+  //     const newCoordinates = [...coordinates, { lat: weatherData.coord.lat, lon: weatherData.coord.lon }];
+  //     setCoordinates(newCoordinates);
+  //     localStorage.setItem('coordinates', JSON.stringify(newCoordinates));
+  //     setStarClicked(!starClicked); 
+  //   }
+  // };
+
+  useEffect(() => {
+    if (coordinates.length > 0) {
+      localStorage.setItem('coordinates', JSON.stringify(coordinates));
+    }
+  }, [coordinates]);
+
+  const handleStarClick = () => {
+    if (weatherData) {
+      const { lat, lon } = weatherData.coord;
+      const placeName = weatherData.name; 
+      const index = coordinates.findIndex(coord => coord.lat === lat && coord.lon === lon);
+      if (index !== -1) {
+        const newCoordinates = coordinates.filter((_, i) => i !== index);
+        setCoordinates(newCoordinates);
+      } else {
+        const newCoordinates = [...coordinates, { lat, lon, placeName }];
+        setCoordinates(newCoordinates);
+      }
+    }
+  };
+
 
   return (
     <div className={styles.scrollableContainer}>
@@ -66,6 +106,7 @@ const Today = () => {
             <h2 className={styles.cityName}>{weatherData.name}</h2>
             <img src={weatherIcon} alt="Weather Icon" className={styles.weatherIcon} />
             <p className={styles.temperature}>{weatherData.main.temp} °C</p>
+            <StarIcon onClick={handleStarClick} className={`${styles.starIcon} ${coordinates.some(coord => coord.lat === weatherData.coord.lat && coord.lon === weatherData.coord.lon) ? styles.golden : ''}`} />
           </div>
         )}
 

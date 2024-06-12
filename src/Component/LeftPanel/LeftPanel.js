@@ -1,35 +1,21 @@
-// // LeftPanel.js
-
-// import React from 'react';
-// import styles from './LeftPanel.module.css';
-
-// const LeftPanel = () => {
-//   return (
-//     <div className={styles.leftPanel}>
-      
-//     </div>
-//   );
-// };
-
-// export default LeftPanel;
-
-// ==================
-
-import React, { useState } from 'react';
-
+import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import styles from './LeftPanel.module.css';
 
-const center = [18.5204, 73.8567]; 
-
-const locations = [
-  { position: [18.5204, 73.8567], name: 'Pune' },
-  { position: [19.9975, 73.7898], name: 'Nashik' },
-  { position: [21.1466, 79.0882], name: 'Nagpur' },
-];
+const center = [18.5204, 73.8567];
 
 const LeftPanel = () => {
+  const [locations, setLocations] = useState([]);
+
+  useEffect(() => {
+    const storedCoordinates = localStorage.getItem('coordinates');
+    if (storedCoordinates) {
+      console.log(JSON.parse(storedCoordinates));
+      setLocations(JSON.parse(storedCoordinates));
+    }
+  }, [locations]);
+
   return (
     <div className={styles.leftPanel}>
       <MapContainer center={center} zoom={6} style={{ width: '100%', height: '20rem' }}>
@@ -38,8 +24,8 @@ const LeftPanel = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
         {locations.map((location, index) => (
-          <Marker key={index} position={location.position}>
-            <Popup>{location.name}</Popup>
+          <Marker key={index} position={[location.lat, location.lon]}>
+            <Popup>{`${location.lat}, ${location.lon}`}</Popup>
           </Marker>
         ))}
       </MapContainer>
@@ -48,3 +34,5 @@ const LeftPanel = () => {
 };
 
 export default LeftPanel;
+
+// ---------------------------

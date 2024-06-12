@@ -117,10 +117,10 @@
 
   .icon {
     cursor: pointer;
-    background: radial-gradient(circle, blue 50%, #72668c 50%);
+    background: radial-gradient(circle, rgb(34, 34, 255) 50%, #72668c 50%);
     color:green;
     border-radius: 50%;
     margin-left: 10px;
-    font-size: 3rem;
+    height: 3rem;
     padding:0%;
   }
