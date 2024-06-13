@@ -4,7 +4,7 @@
     top: calc(6vh + 2rem);
     right: 0;
     width: 80vw;
-    height: auto;
+    height:calc(96vh  - 2rem) ;
 
 }
 
@@ -32,4 +32,12 @@
   
   .navbar button.active {
     border-bottom: 4px solid #665b7e; 
+  }
+
+  @media screen and (max-width: 800px) {
+    .container {
+    top: calc(10vh + 2rem);
+
+      width: 100vw;
+    }
   }

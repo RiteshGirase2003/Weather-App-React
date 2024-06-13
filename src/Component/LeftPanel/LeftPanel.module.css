@@ -16,19 +16,26 @@
   flex-direction: column;
   padding: 10px;
 }
-.card {
+
+.locationList{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-  padding: 5px 10px;
-  margin-bottom: 5px;
+  flex-wrap: wrap;
 }
 
-.card button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
+.card {
+  width:90%;
+  margin: 0.5rem auto;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.card p {
+  display: flex;
+  align-items: center;
+}
+
+.card p svg {
+  margin-right: 5px;
+}
+
