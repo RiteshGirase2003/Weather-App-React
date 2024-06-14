@@ -1,13 +1,13 @@
 # Weather App
-Hosted Website: Weather App
+## Hosted Website: Weather App
 
-GitHub Repository: Weather App on GitHub
+## GitHub Repository: Weather App on GitHub
 
 # Team Details
 # Ritesh Girase
-Email: riteshgirasecode@gmail.com
-GitHub: https://github.com/RiteshGirase2003
-LinkedIn: https://www.linkedin.com/in/ritesh-girase-096945255/
+## Email: riteshgirasecode@gmail.com
+## GitHub: https://github.com/RiteshGirase2003
+## LinkedIn: https://www.linkedin.com/in/ritesh-girase-096945255/
 
 # Overview
 This Weather App is a comprehensive weather forecasting application developed using React.js. The app provides hyperlocal weather data, including minute forecasts, historical data, and various weather conditions for any location on the globe.
