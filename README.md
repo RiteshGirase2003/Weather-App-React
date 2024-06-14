@@ -41,14 +41,17 @@ SpeechRecognition: For voice search functionality.
 Google Images: For additional visual elements.
 
 # Installation and Setup
-  ## Clone the Repository:
-    ### git clone https://github.com/RiteshGirase2003/Weather-App-React.git
-    ### cd Weather-App-React
-  ## Install Dependencies:
-    ### npm install
-  ## Run the Application:
-    ### npm start
-    ### Open http://localhost:3000 in your browser to view the app.
+
+## Clone the Repository:
+  ### git clone https://github.com/RiteshGirase2003/Weather-App-React.git
+  ### cd Weather-App-React
+## Install Dependencies:
+  ### npm install
+## Run the Application:
+  ### npm start
+  ### Open http://localhost:3000 in your browser to view the app.
+
+  
 # API Integration
 ## OpenWeather API
 This app uses OpenWeather products to fetch weather data. OpenWeather provides hyperlocal minute forecasts, historical data, current state, and forecasts from short-term to annual weather data.
