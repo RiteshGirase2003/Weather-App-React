@@ -63,7 +63,8 @@ Used to make HTTP requests to the OpenWeather API.
 # Voice Search
 The app includes voice search functionality powered by the Web Speech API:
 Users can click on the microphone icon and speak the name of the city, state, or country to get the weather data for that location. Ensure you have the required types installed for TypeScript support:
-#### npm install --save @types/web-speech-api
+
+  npm install --save @types/web-speech-api
 
 # Map Integration
 The app uses React Leaflet for the interactive map, allowing users to select a location directly on the map to fetch weather data.
