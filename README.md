@@ -1,13 +1,13 @@
 # Weather App
-## Hosted Website: https://weatherapp-riteshgirase2003.netlify.app/
+  Hosted Website: https://weatherapp-riteshgirase2003.netlify.app/
 
-## GitHub Repository: [Weather App on GitHub](https://github.com/RiteshGirase2003/Weather-App-React/tree/V2)
+  GitHub Repository: [Weather App on GitHub](https://github.com/RiteshGirase2003/Weather-App-React/tree/V2)
 
 # Team Details
 # Ritesh Girase
-## Email: riteshgirasecode@gmail.com
-## GitHub: https://github.com/RiteshGirase2003
-## LinkedIn: https://www.linkedin.com/in/ritesh-girase-096945255/
+  Email: riteshgirasecode@gmail.com
+  GitHub: https://github.com/RiteshGirase2003
+  LinkedIn: https://www.linkedin.com/in/ritesh-girase-096945255/
 
 # Overview
 This Weather App is a comprehensive weather forecasting application developed using React.js. The app provides hyperlocal weather data, including minute forecasts, historical data, and various weather conditions for any location on the globe.
@@ -43,13 +43,13 @@ Google Images: For additional visual elements.
 # Installation and Setup
 
 ## Clone the Repository:
-  ### git clone https://github.com/RiteshGirase2003/Weather-App-React.git
-  ### cd Weather-App-React
+  git clone https://github.com/RiteshGirase2003/Weather-App-React.git
+  cd Weather-App-React
 ## Install Dependencies:
-  ### npm install
+  npm install
 ## Run the Application:
-  ### npm start
-  ### Open http://localhost:3000 in your browser to view the app.
+  npm start
+  Open http://localhost:3000 in your browser to view the app.
 
   
 # API Integration
