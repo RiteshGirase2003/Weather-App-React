@@ -6,7 +6,9 @@
 # Team Details
 # Ritesh Girase
   Email: riteshgirasecode@gmail.com
+  
   GitHub: https://github.com/RiteshGirase2003
+  
   LinkedIn: https://www.linkedin.com/in/ritesh-girase-096945255/
 
 # Overview
