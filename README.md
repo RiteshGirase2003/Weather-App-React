@@ -1,7 +1,7 @@
 # Weather App
-## Hosted Website: Weather App
+## Hosted Website: https://weatherapp-riteshgirase2003.netlify.app/
 
-## GitHub Repository: Weather App on GitHub
+## GitHub Repository: [Weather App on GitHub](https://github.com/RiteshGirase2003/Weather-App-React/tree/V2)
 
 # Team Details
 # Ritesh Girase
