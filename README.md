@@ -104,7 +104,12 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 
 # Contact
-For any questions or feedback, feel free to reach out to me via GitHub.
+
+For any questions, feedback, or collaboration opportunities, feel free to reach out to me through the following channels:
+
+- **GitHub**: [RiteshGirase2003](https://github.com/RiteshGirase2003)
+- **LinkedIn**: [Ritesh Girase](https://www.linkedin.com/in/ritesh-girase-096945255/)
+- **Email**: riteshgirasecode@gmail.com
 
 
 
