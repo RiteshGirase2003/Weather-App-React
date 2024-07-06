@@ -17,7 +17,7 @@ const Today = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Nashik&units=metric&appid=55dde7f2262dcf16d636e7dfa533a821`);
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Nashik&units=metric&appid=55dde7f2262dcf16d636e7dfasdfghj`);
         setWeatherData(response.data);
 
         // Set weather icon based on response data
