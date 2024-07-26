@@ -43,7 +43,7 @@ Google Images: For additional visual elements.
 # Installation and Setup
 
 ## Clone the Repository:
-  git clone https://github.com/RiteshGirase2003/Weather-App-React.git
+  git clone -b V2 https://github.com/RiteshGirase2003/Weather-App-React.git
   cd Weather-App-React
 ## Install Dependencies:
   npm install
