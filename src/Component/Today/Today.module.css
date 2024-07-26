@@ -7,44 +7,551 @@
     width: 0; 
     height: 0; 
   }
-/* 
-.weatherContainer {
-    text-align: center;
-    margin-top: 20px;
-  } */
+
   
+
+.thermostatIcon {
+  color: red;
+}
+
+.acUnitIcon {
+  color: rgb(110, 158, 253);
+}
+
+.airIcon {
+  color: rgb(42, 69, 245);
+}
+
+.waterIcon {
+  color: #90d1ff;
+}
+
+.grassIcon {
+  color: #2fd034e2;
+}
+
+.visibilityIcon {
+  color: rgb(255, 178, 255); 
+}
+
+.northIcon {
+  color: #6495ED; 
+}
+
+.starIcon {
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.golden {
+  color: gold;
+}
+
+
+.weatherContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  background-color: #000000;
+  background-size: 100%;
+}
+
+  .weatherCardDetails {
+    margin: 1rem 0;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .fav{
+    width:90%;
+    margin:  0 auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .cityName {
-    font-size: 24px;
+    font-size: 2rem;
+    margin-bottom: 10px;
   }
   
   .weatherIcon {
-    display: block;
-    margin: 0 auto;
-    width: 100px; 
-    height: auto; 
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
   }
   
   .temperature {
-    font-size: 36px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   
-  /* .weatherCard {
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin-top: 20px;
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
   }
-   */
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+
+  
+  
+/* ------- Temp details ---------------  */
+.TempCardDetails{
+  border-radius: 8px;
+  width: 80%; 
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.TempDetails{
+  display: flex;
+  justify-content: space-between;
+}
+
+.TempDetails .cardDetails  {
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.TempDetails .SunDetails{
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TempDetails .SunDetails .sunImage{
+  width:40%;
+
+}
+
+.TempDetails .SunDetails .sunTime{
+  width:40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TempDetails .cardDetails .thermostatIcon {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.TempDetails .cardDetails .textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TempDetails .cardDetails .textContainer .label {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.TempDetails .cardDetails .textContainer .value {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: bold;
+}
+/* --- */
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 20px;
+}
+
+.cardsContainer .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cardsContainer .card .label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+
+
+.cardsContainer .card .value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+/* ------- Wind card */
+
+.windCardDetails{
+  border-radius: 8px;
+  width: 80%; 
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+
+  margin-bottom: 4rem;
+}
+
+.windcard1,
+.windcard2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1; /* Adjusts the card to take equal space */
+}
+
+.windcard2 .card{
+  width: 40%;
+  
+}
+.card .image{
+  width: 50%;
+
+}
+.card .icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.card .icon  p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card .icon  p strong {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.directionImageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.directionImageContainer .image {
+  width: 80%; 
+  height: auto; 
+}
+
+.directionImageContainer .icon {
+
+  position: absolute;
+  top: 30%; 
+  left: 42%;
+  transform: translate(-50%, -50%);
+  width: 15%; 
+  height: auto;
+}
+
+
+/* --------------- Responsive  */
+
+@media only screen and (max-width: 480px) {
   .weatherContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
+    padding: 0 10px;
   }
   
-  .weatherCard {
-    width: 80%; 
-    margin: 10px;
-    padding: 10px;
-    background-color: #f2f2f2a4;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  .weatherCardDetails {
+    width: 90%;
   }
+
+  .cityName {
+    font-size: 1.5rem;
+  }
+
+  .weatherIcon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .temperature {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .TempCardDetails {
+    width: 90%;
+    padding: 8px;
+  }
+
+  .TempDetails .cardDetails,
+  .TempDetails .SunDetails {
+    width: 45%;
+  }
+
+  .TempDetails .SunDetails .sunImage {
+    width: 30%;
+  }
+
+  .TempDetails .SunDetails .sunTime {
+    width: 60%;
+  }
+
+  .TempDetails .cardDetails .thermostatIcon {
+    font-size: 1.5rem;
+  }
+
+  .TempDetails .cardDetails .textContainer .label {
+    font-size: 0.9rem;
+  }
+
+  .TempDetails .cardDetails .textContainer .value {
+    font-size: 1rem;
+  }
+
+  .cardsContainer {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .cardsContainer .card .label {
+    font-size: 0.9rem;
+  }
+
+  .cardsContainer .card .value {
+    font-size: 1rem;
+  }
+
+  .windCardDetails {
+    width: 90%;
+    padding: 8px;
+  }
+
+  .windcard1,
+  .windcard2 {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .windcard2 .card {
+    width: 90%;
+  }
+
+  .card .image {
+    width: 40%;
+  }
+
+  .card .icon {
+    font-size: 1.5rem;
+  }
+
+  .card .icon p {
+    font-size: 0.9rem;
+  }
+
+  .card .icon p strong {
+    font-size: 1rem;
+  }
+
+  .directionImageContainer .image {
+    width: 50%;
+  }
+
+  .directionImageContainer .icon {
+    width: 10%;
+    
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .weatherIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .TempDetails .SunDetails .sunImage {
+    width: 20%;
+  }
+
+  .TempDetails .cardDetails .thermostatIcon {
+    font-size: 1rem;
+  }
+
+  .cardsContainer .card .label {
+    font-size: 0.8rem;
+  }
+
+  .cardsContainer .card .value {
+    font-size: 0.9rem;
+  }
+
+  .card .icon {
+    font-size: 1.2rem;
+  }
+
+  .card .icon p {
+    font-size: 0.8rem;
+  }
+
+  .card .icon p strong {
+    font-size: 0.9rem;
+  }
+
+  .directionImageContainer .image {
+    width: 50%;
+  }
+
+  .directionImageContainer .icon {
+    width: 8%;
+    left: 50%;
+    top: 20%;
+  }
+}
+
+
+/* ---- */
+@media only screen and (max-width: 300px) {
+  .weatherIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .TempDetails .SunDetails .sunImage {
+    width: 20%;
+  }
+
+  .TempDetails .cardDetails .thermostatIcon {
+    font-size: 1rem;
+  }
+
+  .cardsContainer .card .label {
+    font-size: 0.8rem;
+  }
+
+  .cardsContainer .card .value {
+    font-size: 0.9rem;
+  }
+
+  .card .icon {
+    font-size: 1.2rem;
+  }
+
+  .card .icon p {
+    font-size: 0.8rem;
+  }
+
+  .card .icon p strong {
+    font-size: 0.9rem;
+  }
+
+  .directionImageContainer .image {
+    width: 50%;
+  }
+
+  .directionImageContainer .icon {
+    width: 8%;
+    left: 50%;
+    top: 20%;
+  }
+
+  .cityName {
+    font-size: 1.2rem;
+  }
+
+  .temperature {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+  }
+
+  .TempDetails .cardDetails .textContainer .label {
+    font-size: 0.7rem;
+  }
+
+  .TempDetails .cardDetails .textContainer .value {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .cityName {
+    font-size: 1rem;
+  }
+
+  .temperature {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.7rem;
+  }
+
+  .TempDetails .cardDetails .textContainer .label {
+    font-size: 0.6rem;
+  }
+
+  .TempDetails .cardDetails .textContainer .value {
+    font-size: 0.7rem;
+  }
+
+  .cardsContainer .card .label {
+    font-size: 0.7rem;
+  }
+
+  .cardsContainer .card .value {
+    font-size: 0.8rem;
+  }
+
+  .card .icon {
+    font-size: 1rem;
+  }
+
+  .card .icon p {
+    font-size: 0.6rem;
+  }
+
+  .card .icon p strong {
+    font-size: 0.7rem;
+  }
+}

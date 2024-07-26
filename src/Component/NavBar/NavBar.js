@@ -1,15 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Today from '../Today/Today';
 import Weekly from '../Weekly/Weekly';
 import Monthly from '../Monthly/Monthly';
 import styles from './NavBar.module.css';
 
-const Navbar = () => {
+const Navbar = ({place, coord}) => {
   const [activeTab, setActiveTab] = useState('today');
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
+
+  useEffect(() =>{
+    setActiveTab('today');
+  },[place])
 
   return (
     <div className={styles.container}>
@@ -29,7 +33,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {activeTab === 'today' && <Today />}
+      {activeTab === 'today' && <Today place={place} coord={coord}/>}
       {activeTab === 'weekly' && <Weekly />}
       {activeTab === 'monthly' && <Monthly />}
     </div>

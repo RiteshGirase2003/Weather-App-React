@@ -1,0 +1,346 @@
+.scrollableContainer {
+    height: 85vh;
+    overflow: auto;
+    margin-bottom: 4rem;
+  }
+  
+  .scrollableContainer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .thermostatIcon {
+    color: red;
+  }
+  
+  .acUnitIcon {
+    color: rgb(110, 158, 253);
+  }
+  
+  .airIcon {
+    color: rgb(42, 69, 245);
+  }
+  
+  .waterIcon {
+    color: #90d1ff;
+  }
+  
+  .grassIcon {
+    color: #2fd034e2;
+  }
+  
+  .visibilityIcon {
+    color: rgb(255, 178, 255);
+  }
+  
+  .northIcon {
+    color: #6495ED;
+  }
+  
+  .starIcon {
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  
+  .golden {
+    color: gold;
+  }
+  
+  .container {
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    scrollbar-width: thin;
+  }
+  
+  .container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  .container .card {
+    margin:0 10px;
+    flex: 0 0 auto;
+    width: 10%;
+    min-width: 120px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .container .card p {
+    margin: 0 ;
+    font-size: 1rem;
+  }
+  
+  .container .todayCard {
+    border:2px skyblue solid ;
+  }
+  
+  .firstCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .leftSection {
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .rightSection {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .TempCardDetails {
+    border-radius: 8px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  .TempDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .TempDetails .cardDetails {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .sunImage {
+    width: 70%;
+  }
+  
+  .sunTime {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cardDetails .thermostatIcon {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  .cardDetails .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardDetails .textContainer .label {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .cardDetails .textContainer .value {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 5px;
+  }
+  
+  .cardsContainer .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cardsContainer .card .label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .cardsContainer .card .value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  
+  .WeatherSummary {
+    text-align: center;
+  }
+  
+  .WeatherSummary img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .windIcon,
+  .windDirectionIcon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .StatsDiv{
+    width: auto;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+  
+  }
+  
+  
+  .StatsDiv .ChartContainer {
+    border: 1px solid #cdcdcd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: auto;
+    scrollbar-width: thin;
+  
+  }
+  
+  .StatsDiv .ChartContainer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  
+  .ToggleBtnDiv{
+    width: 80%;
+    margin:1rem auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .ToggleBtnDiv .ToggleBtn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .ToggleBtnDiv .ToggleBtn:hover {
+    background-color: #45a049; 
+  }
+  
+  /*  */
+  /*  */
+  
+  @media (min-width: 1025px) {
+    .leftSection {
+      width: 25%;
+    }
+  }
+  
+  /* For screens between 800px and 1024px */
+  @media (max-width: 1024px) {
+    .firstCard {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .leftSection {
+      width: 60%;
+      justify-content: center;
+    }
+  
+    .rightSection {
+      margin-top: 1rem;
+      justify-content: center;
+    }
+  }
+  
+  /* For screens between 768px and 800px */
+  @media (max-width: 800px) {
+    .leftSection {
+      width: 70%;
+      justify-content: flex-start;
+    }
+  
+    .rightSection {
+      display: none;
+    }
+  }
+  
+  /* For screens between 480px and 768px */
+  @media (max-width: 768px) {
+    .firstCard {
+      padding: 10px;
+    }
+  
+    .leftSection {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .rightSection {
+      display: none;
+    }
+  }
+  
+  /* For screens between 300px and 480px */
+  @media (max-width: 480px) {
+    .firstCard {
+      padding: 5px;
+    }
+  
+    .leftSection {
+      width: 100%;
+      justify-content: space-between;
+      font-size: 0.8rem;
+    }
+  
+    .rightSection {
+      display: none;
+    }
+  }
+  
+  /* For screens below 300px */
+  @media (max-width: 300px) {
+    .firstCard {
+      padding: 3px;
+    }
+  
+    .leftSection {
+      font-size: 0.7rem;
+    }
+  }

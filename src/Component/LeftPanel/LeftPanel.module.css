@@ -11,3 +11,31 @@
   overflow-y: auto;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 }
+.locationCards{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.locationList{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width:90%;
+  margin: 0.5rem auto;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  display: flex;
+  align-items: center;
+}
+
+.card p svg {
+  margin-right: 5px;
+}
+

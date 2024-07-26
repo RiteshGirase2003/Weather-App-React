@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 800px) {
+  .leftpanel {
+    display: none;
+  }
+  
+}
