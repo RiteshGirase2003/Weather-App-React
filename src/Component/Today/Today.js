@@ -68,8 +68,10 @@ const Today = ({place, coord}) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+
         // const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=nashik&units=metric${queryStr}&appid=55dde7f2262dcf16d636e7dfa533a821`);
         const response = await axios.get(apiUrl);
+
 
         setWeatherData(response.data);
         const { weatherIcon, backgroundImage } = getWeatherIcon(response.data.weather[0].icon)
