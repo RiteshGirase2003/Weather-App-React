@@ -28,6 +28,7 @@ import CompressIcon from '@mui/icons-material/Compress';
 
 
 const Today = ({place, coord}) => {
+  
   const [weatherData, setWeatherData] = useState(null);
   const [weatherIcon, setWeatherIcon] = useState(clear_icon); 
   const [BackgroundImage, setBackgroundImage] = useState(clearbg);
@@ -48,10 +49,10 @@ const Today = ({place, coord}) => {
 
   if (place) {
       apiUrl += `q=${place}&`;
-  } else if (coord) {
+  } else if (coord.length > 0 ) {
       const { lat, lng } = coord;
       apiUrl += `lat=${lat}&lon=${lng}`;
-  } else if (place =='' && coordinates.length > 0) {
+  } else{
     apiUrl += `q=Maharashtra`;
   }
 
@@ -159,7 +160,8 @@ const Today = ({place, coord}) => {
 
   return (
     <div className={styles.scrollableContainer}>
-      <div className={styles.weatherContainer}  style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize: 'cover' }}>
+
+      {weatherData && ( <div className={styles.weatherContainer}  style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize: 'cover' }}>
         
         {weatherData && (
           <div className={styles.weatherCardDetails}>
@@ -292,7 +294,7 @@ const Today = ({place, coord}) => {
             </>
           )}
         </div>      
-      </div>
+      </div>)}
     </div>
   );
 };

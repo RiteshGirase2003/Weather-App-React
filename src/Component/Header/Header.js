@@ -146,6 +146,7 @@ const Header = ({setPlace,setCoord}) => {
         setCurrSearchMode('globe')
         setShowOverlay(false);
         handleSearchClick()
+        setZoom(12)
       },
     });
 

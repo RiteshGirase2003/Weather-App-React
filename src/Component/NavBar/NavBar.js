@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Today from '../Today/Today';
 import Weekly from '../Weekly/Weekly';
 import Monthly from '../Monthly/Monthly';
@@ -10,6 +10,10 @@ const Navbar = ({place, coord}) => {
   const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
+
+  useEffect(() =>{
+    setActiveTab('today');
+  },[place])
 
   return (
     <div className={styles.container}>

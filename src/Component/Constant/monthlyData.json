@@ -1,0 +1,782 @@
+[
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.0,
+            "feels_like": 32.5,
+            "temp_min": 30.0,
+            "temp_max": 30.0,
+            "pressure": 1003,
+            "humidity": 60,
+            "sea_level": 1003,
+            "grnd_level": 950
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.5, "deg": 290, "gust": 6.0},
+        "clouds": {"all": 80},
+        "date": "June 1, 2024",
+        "sys": {"country": "IN", "sunrise": 1718324479, "sunset": 1718372340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.0,
+            "feels_like": 34.7,
+            "temp_min": 32.0,
+            "temp_max": 32.0,
+            "pressure": 1006,
+            "humidity": 55,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.2, "deg": 270, "gust": 5.1},
+        "clouds": {"all": 20},
+        "date": "June 2, 2024",
+        "sys": {"country": "IN", "sunrise": 1718410879, "sunset": 1718458740},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.5,
+            "feels_like": 34.0,
+            "temp_min": 31.5,
+            "temp_max": 31.5,
+            "pressure": 1005,
+            "humidity": 57,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.8, "deg": 280, "gust": 5.5},
+        "clouds": {"all": 40},
+        "date": "June 3, 2024",
+        "sys": {"country": "IN", "sunrise": 1718497279, "sunset": 1718545140},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 800, "main": "Clear", "description": "clear sky", "icon": "01d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.5,
+            "feels_like": 35.1,
+            "temp_min": 32.5,
+            "temp_max": 32.5,
+            "pressure": 1004,
+            "humidity": 54,
+            "sea_level": 1004,
+            "grnd_level": 951
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.0, "deg": 270, "gust": 4.8},
+        "clouds": {"all": 10},
+        "date": "June 4, 2024",
+        "sys": {"country": "IN", "sunrise": 1718583679, "sunset": 1718631540},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.8,
+            "feels_like": 34.3,
+            "temp_min": 31.8,
+            "temp_max": 31.8,
+            "pressure": 1005,
+            "humidity": 56,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.2, "deg": 280, "gust": 5.0},
+        "clouds": {"all": 20},
+        "date": "June 5, 2024",
+        "sys": {"country": "IN", "sunrise": 1718670079, "sunset": 1718717940},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 6, 2024",
+        "sys": {"country": "IN", "sunrise": 1718756479, "sunset": 1718804340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.0,
+            "feels_like": 34.7,
+            "temp_min": 32.0,
+            "temp_max": 32.0,
+            "pressure": 1007,
+            "humidity": 55,
+            "sea_level": 1007,
+            "grnd_level": 954
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.6, "deg": 275, "gust": 5.2},
+        "clouds": {"all": 25},
+        "date": "June 7, 2024",
+        "sys": {"country": "IN", "sunrise": 1718842879, "sunset": 1718890740},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.5,
+            "feels_like": 34.0,
+            "temp_min": 31.5,
+            "temp_max": 31.5,
+            "pressure": 1005,
+            "humidity": 57,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.8, "deg": 280, "gust": 5.5},
+        "clouds": {"all": 40},
+        "date": "June 8, 2024",
+        "sys": {"country": "IN", "sunrise": 1718929279, "sunset": 1718977140},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 800, "main": "Clear", "description": "clear sky", "icon": "01d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.5,
+            "feels_like": 35.1,
+            "temp_min": 32.5,
+            "temp_max": 32.5,
+            "pressure": 1004,
+            "humidity": 54,
+            "sea_level": 1004,
+            "grnd_level": 951
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.0, "deg": 270, "gust": 4.8},
+        "clouds": {"all": 10},
+        "date": "June 9, 2024",
+        "sys": {"country": "IN", "sunrise": 1719015679, "sunset": 1719063540},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.8,
+            "feels_like": 34.3,
+            "temp_min": 31.8,
+            "temp_max": 31.8,
+            "pressure": 1005,
+            "humidity": 56,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.2, "deg": 280, "gust": 5.0},
+        "clouds": {"all": 20},
+        "date": "June 10, 2024",
+        "sys": {"country": "IN", "sunrise": 1719102079, "sunset": 1719149940},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 11, 2024",
+        "sys": {"country": "IN", "sunrise": 1719188479, "sunset": 1719236340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.0,
+            "feels_like": 34.7,
+            "temp_min": 32.0,
+            "temp_max": 32.0,
+            "pressure": 1007,
+            "humidity": 55,
+            "sea_level": 1007,
+            "grnd_level": 954
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.6, "deg": 275, "gust": 5.2},
+        "clouds": {"all": 25},
+        "date": "June 12, 2024",
+        "sys": {"country": "IN", "sunrise": 1719274879, "sunset": 1719322740},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.5,
+            "feels_like": 34.0,
+            "temp_min": 31.5,
+            "temp_max": 31.5,
+            "pressure": 1005,
+            "humidity": 57,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.8, "deg": 280, "gust": 5.5},
+        "clouds": {"all": 40},
+        "date": "June 13, 2024",
+        "sys": {"country": "IN", "sunrise": 1719361279, "sunset": 1719409140},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 800, "main": "Clear", "description": "clear sky", "icon": "01d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.5,
+            "feels_like": 35.1,
+            "temp_min": 32.5,
+            "temp_max": 32.5,
+            "pressure": 1004,
+            "humidity": 54,
+            "sea_level": 1004,
+            "grnd_level": 951
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.0, "deg": 270, "gust": 4.8},
+        "clouds": {"all": 10},
+        "date": "June 14, 2024",
+        "sys": {"country": "IN", "sunrise": 1719447679, "sunset": 1719495540},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.8,
+            "feels_like": 34.3,
+            "temp_min": 31.8,
+            "temp_max": 31.8,
+            "pressure": 1005,
+            "humidity": 56,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.2, "deg": 280, "gust": 5.0},
+        "clouds": {"all": 20},
+        "date": "June 15, 2024",
+        "sys": {"country": "IN", "sunrise": 1719534079, "sunset": 1719581940},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 16, 2024",
+        "sys": {"country": "IN", "sunrise": 1719620479, "sunset": 1719668340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.0,
+            "feels_like": 34.7,
+            "temp_min": 32.0,
+            "temp_max": 32.0,
+            "pressure": 1007,
+            "humidity": 55,
+            "sea_level": 1007,
+            "grnd_level": 954
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.6, "deg": 275, "gust": 5.2},
+        "clouds": {"all": 25},
+        "date": "June 17, 2024",
+        "sys": {"country": "IN", "sunrise": 1719706879, "sunset": 1719754740},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.5,
+            "feels_like": 34.0,
+            "temp_min": 31.5,
+            "temp_max": 31.5,
+            "pressure": 1005,
+            "humidity": 57,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.8, "deg": 280, "gust": 5.5},
+        "clouds": {"all": 40},
+        "date": "June 18, 2024",
+        "sys": {"country": "IN", "sunrise": 1719793279, "sunset": 1719841140},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 800, "main": "Clear", "description": "clear sky", "icon": "01d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.5,
+            "feels_like": 35.1,
+            "temp_min": 32.5,
+            "temp_max": 32.5,
+            "pressure": 1004,
+            "humidity": 54,
+            "sea_level": 1004,
+            "grnd_level": 951
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.0, "deg": 270, "gust": 4.8},
+        "clouds": {"all": 10},
+        "date": "June 19, 2024",
+        "sys": {"country": "IN", "sunrise": 1719879679, "sunset": 1719927540},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.8,
+            "feels_like": 34.3,
+            "temp_min": 31.8,
+            "temp_max": 31.8,
+            "pressure": 1005,
+            "humidity": 56,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.2, "deg": 280, "gust": 5.0},
+        "clouds": {"all": 20},
+        "date": "June 20, 2024",
+        "sys": {"country": "IN", "sunrise": 1719966079, "sunset": 1720013940},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 21, 2024",
+        "sys": {"country": "IN", "sunrise": 1720052479, "sunset": 1720100340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.0,
+            "feels_like": 34.7,
+            "temp_min": 32.0,
+            "temp_max": 32.0,
+            "pressure": 1007,
+            "humidity": 55,
+            "sea_level": 1007,
+            "grnd_level": 954
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.6, "deg": 275, "gust": 5.2},
+        "clouds": {"all": 25},
+        "date": "June 22, 2024",
+        "sys": {"country": "IN", "sunrise": 1720138879, "sunset": 1720186740},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.5,
+            "feels_like": 34.0,
+            "temp_min": 31.5,
+            "temp_max": 31.5,
+            "pressure": 1005,
+            "humidity": 57,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.8, "deg": 280, "gust": 5.5},
+        "clouds": {"all": 40},
+        "date": "June 23, 2024",
+        "sys": {"country": "IN", "sunrise": 1720225279, "sunset": 1720273140},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 800, "main": "Clear", "description": "clear sky", "icon": "01d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.5,
+            "feels_like": 35.1,
+            "temp_min": 32.5,
+            "temp_max": 32.5,
+            "pressure": 1004,
+            "humidity": 54,
+            "sea_level": 1004,
+            "grnd_level": 951
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.0, "deg": 270, "gust": 4.8},
+        "clouds": {"all": 10},
+        "date": "June 24, 2024",
+        "sys": {"country": "IN", "sunrise": 1720311679, "sunset": 1720359540},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.8,
+            "feels_like": 34.3,
+            "temp_min": 31.8,
+            "temp_max": 31.8,
+            "pressure": 1005,
+            "humidity": 56,
+            "sea_level": 1005,
+            "grnd_level": 952
+        },
+        "visibility": 10000,
+        "wind": {"speed": 3.2, "deg": 280, "gust": 5.0},
+        "clouds": {"all": 20},
+        "date": "June 25, 2024",
+        "sys": {"country": "IN", "sunrise": 1720398079, "sunset": 1720445940},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 26, 2024",
+        "sys": {"country": "IN", "sunrise": 1720484479, "sunset": 1720532340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 27, 2024",
+        "sys": {"country": "IN", "sunrise": 1720484479, "sunset": 1720532340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 28, 2024",
+        "sys": {"country": "IN", "sunrise": 1720484479, "sunset": 1720532340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 29, 2024",
+        "sys": {"country": "IN", "sunrise": 1720484479, "sunset": 1720532340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    },
+    {
+        "coord": {"lon": 75, "lat": 19.5},
+        "weather": [
+            {"id": 500, "main": "Rain", "description": "light rain", "icon": "10d"}
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 33.0,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1006,
+            "humidity": 58,
+            "sea_level": 1006,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {"speed": 4.0, "deg": 285, "gust": 5.8},
+        "clouds": {"all": 70},
+        "date": "June 30, 2024",
+        "sys": {"country": "IN", "sunrise": 1720484479, "sunset": 1720532340},
+        "timezone": 19800,
+        "id": 1264418,
+        "name": "Maharashtra",
+        "cod": 200
+    }
+]
